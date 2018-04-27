@@ -14,8 +14,6 @@
 
 ### Server-side rendering
 
-#### Client vs. Server side rendering
-
 In Client-side rendering, your browser downloads a minimal HTML page. It renders the JavaScript and fills the content into it.
 
 Server-side rendering, on the other hand, renders the React components on the server. The output is HTML content.
@@ -24,14 +22,13 @@ Server-side rendering, on the other hand, renders the React components on the se
 * **React Helmet** can be useful to render head section elements such as meta tags.
 *  **Next JS** is built specifically for server-side rendering and comes with its own internal routing library.
 
-
-### Isomorphic Javascript
+#### Isomorphic Javascript
 
 An Isomorphic Javascript technology based React website automatically detects if the JavaScript is disabled on the client side. If so it serves a minimal HTML containing all key SEO data.
 
 * [react-website tools](https://github.com/catamphetamine/react-website) 
 
-### Prerendering
+#### Prerendering
 
 Prerender will wait for the page to finish loading and then return the content in full HTML. Search engine crawlers can be targeted specifically to use Prerender (then see full HTML page result) while other browsers can still render the page by themselves (using React).
 
